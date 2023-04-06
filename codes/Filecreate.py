@@ -1,0 +1,6 @@
+content = input("write your content: ")
+filename = input("file name: ")
+file_one = open(filename, "w")
+file_one.write(content)
+file_one.close()
+input("file created check ./codes")
