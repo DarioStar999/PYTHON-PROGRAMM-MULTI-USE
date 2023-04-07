@@ -12,7 +12,7 @@ print("""
             
      2]School averange          4]restart pc                     6]Suspend pc
 
-     7]coming soon              8]coming soon                    9]coming soon
+     7]Create a website         8]Create immage/text             9]coming soon
 
 """)
 
@@ -37,3 +37,13 @@ if Select == "5":
 if Select == "6": 
     from codes import suspend
 
+if Select == "7":
+    from codes import web
+
+if Select == "8":
+    select1 = input("text or immage: ")
+    if select1 == "text":
+        from codes import text
+    if select1 == "immage":
+        from codes import immage
+        
